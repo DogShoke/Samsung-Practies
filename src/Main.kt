@@ -14,8 +14,8 @@ fun main() {
             println()
             println(
                 "Wizard: Атака - рандомное значение в пределах от (сила атаки - 5) до (сила атаки + 10)\n" +
-                        "Манна удваивает атаку \n" +
-                        "1 усиленный удар = 10 манны "
+                        "Мана удваивает атаку \n" +
+                        "1 усиленный удар = 10 маны "
             )
             println("Волшебник может вылечить себя на рандомное число от 5 до 20")
             println()
@@ -38,7 +38,7 @@ fun main() {
             println("Введите силу атаки ")
             val powerW = input.nextInt()
             var name = "Wizard"
-            println("Введите количество Манны ")
+            println("Введите количество Маны ")
             var mana = input.nextInt()
             Wizard(healthW, powerW, name, mana)
             var wizard = Wizard(healthW, powerW, name, mana)
@@ -156,7 +156,4 @@ fun main() {
             }
         }
     }
-}
-fun hi(){
-
 }

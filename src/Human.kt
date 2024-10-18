@@ -7,7 +7,6 @@ abstract class Human(
     abstract var battery: Int
     abstract var shield: Int
     var hp: Int = 0
-    //var randomattack: Int = 0
 
     open fun heal() {
         println()
